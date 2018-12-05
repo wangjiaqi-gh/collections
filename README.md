@@ -6,7 +6,7 @@ Collect a few practical technology, facilitate oneself to use.
 ### 说明
 统一基础运行环境：
 * JDK：1.8.0_152
-* Maven：3.5.4
+* Maven：3.7.0
 * Spring Boot：2.0.0
 
 
