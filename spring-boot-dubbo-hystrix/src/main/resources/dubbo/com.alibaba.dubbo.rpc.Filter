@@ -1,0 +1,2 @@
+beforeRequestFilter=com.wangjiaqi.collections.interceptor.RequestFilter
+hystrix=com.kuaikan.recommend.blender.interceptor.HystrixFilter
