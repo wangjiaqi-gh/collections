@@ -7,6 +7,10 @@ import lombok.extern.slf4j.Slf4j;
 public class RequestFilter implements Filter {
     
     
+    /**
+     * 调用本服务的过滤器，区分于调用其他服务的过滤器
+     * Created by wangjiaqi on 2018/12.5
+     */
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
         

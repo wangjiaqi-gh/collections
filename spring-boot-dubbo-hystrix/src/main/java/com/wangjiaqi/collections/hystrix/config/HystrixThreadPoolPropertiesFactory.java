@@ -5,7 +5,7 @@ import com.netflix.hystrix.HystrixThreadPoolProperties;
 
 /**
  * 线程池相关配置生成
- * Created by yangshaokai on 2018/2/28.
+ * Created by wangjiaqi on 2018/12.5
  */
 public class HystrixThreadPoolPropertiesFactory {
 

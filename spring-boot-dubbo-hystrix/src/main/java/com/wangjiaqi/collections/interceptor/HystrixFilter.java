@@ -8,7 +8,11 @@ import com.netflix.hystrix.HystrixCommand;
 import com.wangjiaqi.collections.hystrix.DubboCommand;
 import com.wangjiaqi.collections.hystrix.config.SetterFactory;
 
-// 注解作用：在调用其他服务时自动走这个Filter
+/**
+ * 调用其他服务的过滤器
+ * Created by wangjiaqi on 2018/12.5
+ * 注解作用：在调用其他服务时自动走这个Filter
+ */
 @Activate(group = Constants.CONSUMER,before = "future")
 public class HystrixFilter implements Filter {
 

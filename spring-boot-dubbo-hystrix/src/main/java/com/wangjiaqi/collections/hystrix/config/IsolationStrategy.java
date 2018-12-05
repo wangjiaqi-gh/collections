@@ -5,7 +5,7 @@ import com.netflix.hystrix.HystrixCommandProperties;
 
 /**
  * 隔离策略
- * Created by yangshaokai on 2018/4/12.
+ * Created by wangjiaqi on 2018/12.5
  */
 public class IsolationStrategy {
 

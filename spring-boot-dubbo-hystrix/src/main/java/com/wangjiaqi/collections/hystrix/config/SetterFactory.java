@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * HystrixCommand.Setter 工厂，生成的配置会放入缓存，下次直接获取
- * Created by yangshaokai on 2018/2/7.
+ * Created by wangjiaqi on 2018/12.5
  */
 public class SetterFactory {
 

@@ -12,7 +12,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by yangshaokai on 2018/2/7.
+ * DubboCommand封装类
+ * Created by wangjiaqi on 2018/12.5
  */
 public class DubboCommand extends HystrixCommand<Result> {
 

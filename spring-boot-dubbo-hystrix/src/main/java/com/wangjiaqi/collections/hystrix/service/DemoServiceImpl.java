@@ -4,6 +4,10 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+/**
+ * 测试服务
+ * Created by wangjiaqi on 2018/12.5
+ */
 @Component
 @Slf4j
 public class DemoServiceImpl  {
